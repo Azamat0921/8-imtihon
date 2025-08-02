@@ -1,0 +1,177 @@
+{
+	"info": {
+		"_postman_id": "27ffe050-d785-4624-878b-0c499d76917d",
+		"name": "8-imtihon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40691080"
+	},
+	"item": [
+		{
+			"name": "hero",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "learn english",
+							"type": "text"
+						},
+						{
+							"key": "subtitle",
+							"value": "With our teachers who write a program for \neach student, you will be able to make your\nfirst sketch after the first lesson.",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Comp-MIR/Downloads/Без названия.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/hero",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hero"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "hero",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/hero",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"hero"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pricing",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Self-study online course\",\r\n  \"price\": 5.99,\r\n  \"description\": \"Start learning English online in live classes with qualified EC teachers and students from all over the world.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/pricing",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"pricing"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "pricing",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "about-us",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "About us",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "The model offers a framework for discussing problems related to the user's experience, as well as possible ways and means of solving them. Application development begins at the top level (strategy), where the future software product is described quite abstractly from the point of view of the expectations of both users and the customer.\n\n",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/Comp-MIR/Downloads/Без названия.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/about-us",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"about-us"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "about-us",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"title\": \"Self-study online course\",\r\n  \"price\": 5.99,\r\n  \"description\": \"Start learning English online in live classes with qualified EC teachers and students from all over the world.\"\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/about-us",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"about-us"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
